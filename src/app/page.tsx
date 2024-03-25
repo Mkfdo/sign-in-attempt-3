@@ -1,95 +1,63 @@
-import Image from "next/image";
+
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="wrapper">
+      <div className="login_box">
+        <div className="header">
+          <span><h1>Log in to your account</h1></span>
         </div>
+        <div className="subheader">
+            <p>Welcome back! Please enter your details</p>
+        </div>
+        
+          
+        
+        
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="input_box">
+      <input
+        type="email"
+        id="email"
+        className="input-field"
+        placeholder="Enter your email"
+        
+      />
+      <label htmlFor="email" className="label">
+        Email
+      </label>
+    </div>
+    <div className="input_box">
+      <input type="password" id="pass" className="input-field" placeholder="********"/>
+      <label htmlFor="pass" className="label">Password
+      </label>
+    </div>
+    <div className="remember-forgot">
+      <div className="remember">
+        <input type="checkbox" id="remember" />
+        <label htmlFor="remember">Remember for 30 days</label>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className="forgot">
+        <a href="#"><u>Forgot password</u></a>
       </div>
+    </div>
+    <div>
+    <button className = "submit" type = "submit">Sign in</button>
+
+    </div>
+    <div >
+      <button className = "google" type = "submit">Sign in with Google</button>
+    </div>
+    <div className="register">
+      <a href ="./Form.tsx" id="linkCreateAccount">
+        Don't have an account? <u>Sign up</u>
+      </a>
+    </div>
+
+      
     </main>
   );
 }
+
+

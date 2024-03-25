@@ -1,15 +1,17 @@
 
 import styles from "./page.module.css";
 
+
+
 export default function Home() {
   return (
     <main className="wrapper">
       <div className="login_box">
         <div className="header">
-          <span><h1>Log in to your account</h1></span>
+          <span><b>Log in to your account</b></span>
         </div>
         <div className="subheader">
-            <p>Welcome back! Please enter your details</p>
+            <h6>Welcome back! Please enter your details</h6>
         </div>
         
           
@@ -25,12 +27,12 @@ export default function Home() {
         
       />
       <label htmlFor="email" className="label">
-        Email
+        <b>Email</b>
       </label>
     </div>
     <div className="input_box">
       <input type="password" id="pass" className="input-field" placeholder="********"/>
-      <label htmlFor="pass" className="label">Password
+      <label htmlFor="pass" className="label"><b>Password</b>
       </label>
     </div>
     <div className="remember-forgot">
@@ -47,8 +49,9 @@ export default function Home() {
 
     </div>
     <div >
-      <button className = "google" type = "submit">Sign in with Google</button>
+      <button className = "google" type = "submit"><a href ="./google.accounts.com">Sign in with Google</a></button>
     </div>
+    
     <div className="register">
       <a href ="./Form.tsx" id="linkCreateAccount">
         Don't have an account? <u>Sign up</u>

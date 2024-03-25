@@ -1,9 +1,9 @@
 :root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+  }
 
 
 
@@ -14,9 +14,9 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-  background-color: white;
-  box-sizing: border-box;
-  justify-content: center;
+  	background-color: white;
+  	box-sizing: border-box;
+  	justify-content: center;
 }
 a {
 	text-decoration: none;

@@ -1,0 +1,163 @@
+.root{
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+    max-height: 80px;
+    background-attachment: fixed;
+    
+  
+}
+
+  
+.body {
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+  
+.Link {
+    color: blue;
+    text-decoration: none;
+}
+  
+
+  
+  
+  
+  
+  
+  
+
+.signupWrapper  {
+	width: 100%;
+	display:flow-root;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: white;
+}
+
+.formWrapper {
+    position: relative;
+	width: 250px;
+	border: 2px whitesmoke;
+	border-radius: 15px;
+	padding: 7.5em 2.5em 4em 2.5em;
+	color: black;
+}
+
+.left{
+    position:fixed;
+	top: 17%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	.span {
+		font-size: 20px;
+		color: black;
+	}
+
+}
+
+.subheader {
+	position:fixed;
+	top: 12%;
+	left: 41%;
+	display:inline-flex;
+  font-size: 16px;
+}
+
+.right {
+    position:fixed;
+	top: 20%;
+	left: 41%;
+	display:inline-flex;
+  font-size: 16px;
+}
+
+.input_box {
+	position: relative;
+	display: flex;
+	flex-direction: column-reverse;
+    text-align: left;
+	margin: 20px 0;
+	border-color: black;
+    border-width: 100px;
+    left: 2%;
+    background-color: whitesmoke;
+}
+
+.input_field {
+	width: 80%;
+	height: 45px;
+	font-size: 16px;
+	color: black;
+	padding-inline: 20px 50px;
+	border: black;
+	outline-color: black;
+    background-color: whitesmoke;
+  
+}
+#email {
+	margin-bottom: 2px;
+}
+
+.submit {
+    width: 80%;
+    height: 50px;
+    align-content: center;
+    background: rgb(49, 70, 187);
+      font-weight: 500;
+      border-color: black;
+    border-radius: 2%;
+      cursor: pointer;
+      transition: .3s;
+      color: white;
+    outline-color: black;
+    row-gap: 5%;
+    
+      .hover {
+          background: white;
+      }
+  }
+
+  .icon{
+    width: 7;
+    height: 7;
+    left: 20%;
+  }
+
+
+  .google {
+    width: 80%;
+    height: 50px;
+    background: gray;
+      font-weight: 500;
+      border: black;
+      cursor: pointer;
+      transition: .3s;
+      color: black;
+    border-radius: 2%;
+    outline-color: black;
+    border-style: initial;
+    
+      .hover {
+          background: white;
+      }
+  }
+  .register {
+    cursor: pointer;
+      text-align: center;
+      color: blue;
+      .Link {
+          font-weight: 500;
+      }
+  }

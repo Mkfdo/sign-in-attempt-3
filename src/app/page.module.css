@@ -1,215 +1,152 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+	box-sizing: border-box;
+}
+  
+  
+  
+body {
 
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: white;
+	box-sizing: border-box;
+	position: fixed;
+}
 
-
-
-.Link {
-	color: blue;
+Link {
 	text-decoration: none;
+	color: white;
+	:hover {
+		  text-decoration: underline;
+	}
 }
 
 .main {
-  
-  
-  	justify-content: center;
-  	align-items: center;
-  	display: contents;
-	background-color: white;
-  	background-position: center;
-	width: 1440px;
-  	height: 960px;
-  	top: -6214px;
-  	left: -10428px;
-  	padding: 205px 0px 263px 0px;
-  	gap: 0px;
-  	opacity: 0px;
-  	background-size: cover;
-  	background-repeat: no-repeat;
-  	background-attachment: fixed;
-	box-sizing: border-box;
-  	position: fixed;
-  	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: whitesmoke;
 }
-  
-  
-  	
 
 .content {
-  position: fixed;
-  border: 2px whitesmoke;
-  padding: 7.5em 2.5em 4em 2.5em;
-  color: black;
-  width: Fixed (360px)px;
-  height: Hug (332px)px;
-  color: black;
-  border-radius: 12px 0px 0px 0px;
-  opacity: 0px;
-  display: block;
-  
-  
+	position: relative;
+	width: 450px;
+	border: 2px whitesmoke;
+	border-radius: 15px;
+	padding: 7.5em 2.5em 4em 2.5em;
+	color: black;
 }
+
 .m_title {
-  
-  width: Fixed (360px)px;
-  height: Hug (74px)px;
-  gap: 24px;
-  opacity: 0px;
-  position: fixed;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: whitesmoke;
-  display: flex;
-  .span {
-	  font-size: 20px;
-	  color: black;
-  	}
-  
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: whitesmoke;
+	span {
+		font-size: 20px;
+		color: black;
+	}
 }
-  
 
 .title {
-  position:fixed;
-  width: Fixed (360px)px;
-  height: Hug (74px)px;
-  gap: 24px;
-  opacity: 0px;
-  display:inline-flex;
-  font-size: 16px;
-  top: 17%;
-  left: 41%;
-  display: flex;
-  
-  
-  
+	position: absolute;
+	top: 12%;
+	left: 30%;
+	display: flex;
 }
+
 .input {
-  width: Fixed (360px)px;
-  height: Hug (332px)px;
-  gap: 24px;
-  border-radius: 12px 0px 0px 0px;
-  opacity: 0px;
-  position: fixed;
-  display: flex;
-  flex-direction: column-reverse;
-  text-align: left;
-  margin: 20px 0;
-  border: black;
-
-
+	position: relative;
+	display: flex;
+	flex-direction: column-reverse;
+	text-align: left;
+	margin: 20px 0;
+	border: black;
 }
 
-  
-.field {	
-  width: Fill (360px)px;
-  height: Hug (70px)px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  text-align: left;
-  width: Fill (360px)px;
-  padding: 10px 14px 10px 14px;
-  gap: 8px;
-  border-radius: 8px 0px 0px 0px;
-  border: 1px 0px 0px 0px;
-  color: black;
-  border: black;
-  outline-color: black;
-  background-color: white;
-  position: fixed;
-  display: flex;
-  
+.field {
+	width: 80%;
+	height: 45px;
+	font-size: 16px;
+	color: black;
+	padding-inline: 20px 50px;
+	border: white;
+	outline-color: white;
+	background-color: white;
+	
 }
 
 #email {
-  margin-bottom: 2px;
+	margin-bottom: 2px;
 }
-  
-
 .rememberForgot {
-  display: flex;
-  justify-content: space-between;
-  width: Fill (360px)px;
-  height: Hug (20px)px;
-  gap: 8px;
-  opacity: 0px;
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  text-align: left;
-  position: fixed;
-  
-
+	display: flex;
+	justify-content: space-between;
+	font-size: 15px;
+	
 }
 
 .action {
-  row-gap: 20px;
-  position: fixed;
-  display: block;
+	gap: 20px;
+	justify-content: center;
 }
-
+  
 .signin {
+	width: 100%;
+	height: 50px;
+	background: rgb(49, 70, 187);
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	transition: .3s;
+	color: white;
 	
-  width: 360px;
-  height: 104px;
-  gap: 16px;
-  opacity: 0px;
-  border-radius: 4px 0px 0px 0px;
-  opacity: 0px;
-  background: rgb(49, 70, 187);
-  font-weight: 500;
-  border-color: black;
-  border-style: inherit;
-  cursor: pointer;
-  transition: .3s;
-  color: white;
-  position: fixed;
-  
+	:hover {
+		  background: white;
+	}
 }
-
 .googleSignin {
-  width: Fixed (360px)px;
-  height: Hug (44px)px;
-  top: 60px;
-  gap: 12px;
-  border-radius: 4px 0px 0px 0px;
-  opacity: 0px;
-  border-style: inherit;
-  background: white;
-  font-weight: 500;
-  border: black;
-  cursor: pointer;
-  transition: .3s;
-  color: black;
-  position: fixed;
-  
-
+	width: 100%;
+	height: 50px;
+	background: white;
+	font-weight: 500;
+	border: black;
+	cursor: pointer;
+	transition: .3s;
+	color: black;
+	
+	:hover {
+		background: white;
+	}
 }
-
-
 .createAcc {
-  width: Fixed (360px)px;
-  height: Hug (20px)px;
-  gap: 4px;
-  opacity: 0px;
-  text-align: center;
-  position: fixed;
-  display: flex;
-
-  .Link {
-	  font-weight: 500;
-  }
+	text-align: center;
+	Link {
+		font-weight: 500;
+	}
 }
-
+  
+  
 .card {
-padding: 2em;
+	padding: 2em;
 }
+
+
+
+
+
 
 
 

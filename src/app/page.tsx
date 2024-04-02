@@ -6,12 +6,12 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.content}>
-        <div className={styles.m_title}>
+    <main className="main">
+      <div className="content">
+        <div className="m_title">
           <span><b>Log in to your account</b></span>
         </div>
-        <div className={styles.title}>
+        <div className="title">
             <h6>Welcome back! Please enter your details</h6>
         </div>
         
@@ -19,11 +19,11 @@ export default function Home() {
         
         
       </div>
-      <div className={styles.input}>
+      <div className="input">
         <input
           type="email"
           id="email"
-          className={styles.field}
+          className="field"
           placeholder="Enter your email"
           
         />
@@ -31,12 +31,12 @@ export default function Home() {
           Email
         </label>
       </div>
-      <div className={styles.input}>
-        <input type="password" id="pass" className={styles.field} placeholder="********"/>
+      <div className="input">
+        <input type="password" id="pass" className="field" placeholder="********"/>
         <label htmlFor="pass" className="label">Password
         </label>
       </div>
-      <div className={styles.rememberForgot}>
+      <div className="rememberForgot">
         <div className="remember">
           <input type="checkbox" id="remember" />
           <label htmlFor="remember">Remember for 30 days</label>
@@ -45,12 +45,12 @@ export default function Home() {
           <a href="#"><u>Forgot password</u></a>
         </div>
       </div>
-      <div className={styles.action}>
-        <button className={styles.signin} type = "submit">Sign in</button>
-        <button className={styles.googleSignin} type = "submit"><a href ="./google.accounts.com">Sign in with Google</a></button>
+      <div className="action">
+        <button className="signin" type = "submit">Sign in</button>
+        <button className="googleSignin" type = "submit"><a href ="./google.accounts.com">Sign in with Google</a></button>
       </div>
     
-      <div className={styles.createAcc}>
+      <div className="createAcc">
         <Link href ="/signup" id="linkCreateAccount">
           Don't have an account? <u>Sign up</u>
         </Link>

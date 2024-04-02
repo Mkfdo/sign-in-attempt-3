@@ -1,241 +1,188 @@
-
-
-
-
-
-
-
-
-
-
-body {
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+	box-sizing: border-box;
+}
   
-  	background-position: center;
-	width: 1440px;
-	height: 960px;
-	top: -6214px;
-	left: -10428px;
-	padding: 205px 0px 263px 0px;
-	gap: 0px;
-	opacity: 0px;
+  
+  
+body {
+
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-  	background-color: whitesmoke;
-  	justify-content: center;
+	background-color: white;
 	box-sizing: border-box;
-	justify-content: center;
 	position: fixed;
-  	
-
+	
 }
 
-
-
 Link {
-  color: blue;
-  text-decoration: none;
+	text-decoration: none;
+	color: white;
+	:hover {
+		  text-decoration: underline;
+	}
 }
 
 .main {
-	
-	
+	width: 80%;
+	display: contents;
 	justify-content: center;
 	align-items: center;
-	width: Hug (360px)px;
-	height: Hug (492px)px;
-	gap: 33px;
-	opacity: 0px;
-	display: contents;
-	background-color: white;
-	position: fixed;
+	min-height: 50vh;
+	background-color: whitesmoke;
 	
-	
-	
-
 }
 
 .content {
-	position: fixed;
+	position: relative;
+	left: 100%;
+	width: 100%;
 	border: 2px whitesmoke;
+	border-radius: 15px;
 	padding: 7.5em 2.5em 4em 2.5em;
 	color: black;
-	width: Fixed (360px)px;
-	height: Hug (332px)px;
-	color: black;
-	border-radius: 12px 0px 0px 0px;
-	opacity: 0px;
-	display: block;
-	
-	
-}
-.m_title {
-	
-	width: Fixed (360px)px;
-	height: Hug (74px)px;
 	gap: 24px;
-	opacity: 0px;
-	position: fixed;
-	top: 10%;
-	left: 50%;
+}
+
+.m_title {
+	position: absolute;
+	top: 50%;
+	left: 65%;
 	transform: translateX(-50%);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: whitesmoke;
-	display: flex;
+	background-color: white;
+	text-align: left;
+	width: 80%;
 	span {
-		font-size: 20px;
+		font-size: 16px;
 		color: black;
 	}
-	
 }
-	
 
 .title {
-	position:fixed;
-	width: Fixed (360px)px;
-	height: Hug (74px)px;
-	gap: 24px;
-	opacity: 0px;
-	display:inline-flex;
-  	font-size: 16px;
-	top: 17%;
-	left: 41%;
+	position: absolute;
+	top: 60%;
+	left: 42%;
 	display: flex;
-	
-	
-	
+	font-size: 12px;
+	gap: 20px;
 }
+
 .input {
-	width: Fixed (360px)px;
-	height: Hug (332px)px;
-	gap: 24px;
-	border-radius: 12px 0px 0px 0px;
-	opacity: 0px;
-	position: fixed;
+	position: relative;
 	display: flex;
 	flex-direction: column-reverse;
-  	text-align: left;
+	text-align: left;
 	margin: 20px 0;
 	border: black;
-
-
+	left: 130%;
+	top: 37%;
+	gap: 10px;
+	font-size: 14px;
+	
 }
 
-	
-.field {	
-	width: Fill (360px)px;
-	height: Hug (70px)px;
-	gap: 0px;
-	opacity: 0px;
-	font-family: Inter;
+.field {
+	width: 80%;
+	height: 30px;
 	font-size: 14px;
-	font-weight: 500;
-	line-height: 20px;
-	text-align: left;
-	width: Fill (360px)px;
-	padding: 10px 14px 10px 14px;
-	gap: 8px;
-	border-radius: 8px 0px 0px 0px;
-	border: 1px 0px 0px 0px;
 	color: black;
+	padding-inline: 20px 50px;
 	border: black;
 	outline-color: black;
-  	background-color: white;
-	position: fixed;
-	display: flex;
+	background-color: whitesmoke;
+	left: 30%;
+	row-gap: 20px;
 	
 }
 
 #email {
 	margin-bottom: 2px;
 }
-	
-
 .rememberForgot {
 	display: flex;
 	justify-content: space-between;
-	width: Fill (360px)px;
-	height: Hug (20px)px;
-	gap: 8px;
-	opacity: 0px;
-	font-family: Inter;
 	font-size: 14px;
-	font-weight: 500;
-	line-height: 20px;
-	text-align: left;
-	position: fixed;
+	left: 100%;
+	width: 80%;
+	gap: 10px;
+	align-content: center;
+	align-items: center;
 	
-
 }
 
 .action {
+	gap: 20px;
 	row-gap: 20px;
-	position: fixed;
-	display: block;
+	justify-content: center;
+	left: 130%;
+	
 }
-
+  
 .signin {
-  	
-	width: 360px;
-	height: 104px;
-	gap: 16px;
-	opacity: 0px;
-	border-radius: 4px 0px 0px 0px;
-	opacity: 0px;
+	width: 80%;
+	height: 50px;
 	background: rgb(49, 70, 187);
 	font-weight: 500;
-	border-color: black;
-	border-style: inherit;
+	border-style: solid;
 	cursor: pointer;
 	transition: .3s;
 	color: white;
-	position: fixed;
+	left: 100%;
+	gap: 20px;
 	:hover {
-		background: white;
+		  background: white;
 	}
 }
-  
 .googleSignin {
-	width: Fixed (360px)px;
-	height: Hug (44px)px;
-	top: 60px;
-	gap: 12px;
-	border-radius: 4px 0px 0px 0px;
-	opacity: 0px;
-	border-style: inherit;
+	gap: 20px;
+	width: 80%;
+	height: 50px;
 	background: white;
 	font-weight: 500;
 	border: black;
 	cursor: pointer;
 	transition: .3s;
 	color: black;
-	position: fixed;
+	outline-color: black;
+	border-style: solid;
+	
 	:hover {
 		background: white;
 	}
-
 }
-
-
 .createAcc {
-	width: Fixed (360px)px;
-	height: Hug (20px)px;
-	gap: 4px;
-	opacity: 0px;
+	gap: 20px;
 	text-align: center;
-	position: fixed;
-	display: flex;
-
+	left: 130%;
+	width: 80%;
+	font-size: 14px;
 	Link {
 		font-weight: 500;
 	}
 }
-
+  
+  
 .card {
-  padding: 2em;
+	padding: 2em;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

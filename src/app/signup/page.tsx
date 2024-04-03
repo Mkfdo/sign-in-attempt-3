@@ -34,7 +34,7 @@ export default function signup():any {
         <div className={styles.signupWrapper}>
             <div className={styles.formWrapper}>
                 <div className={styles.left}>
-                    <span>Create an account</span>
+                    <span><b>Create an account</b></span>
                     <div className={styles.subheader}>
                     <p>Start your 30-day free trial</p>
                     </div>                    
@@ -45,7 +45,7 @@ export default function signup():any {
                             <div className={styles.input_box}>
                                 
                                 <input type="string"  className={styles.input_field} placeholder="Enter your name"/>
-                                    <label htmlFor="pass" className="label"><b>Name*</b>
+                                    <label htmlFor="pass" className="label">Name*
                                     </label>
                                 
                             </div>           
@@ -57,34 +57,41 @@ export default function signup():any {
 
                             <div className={styles.input_box}>
                                 <input type="email"  className={styles.input_field} placeholder="Enter your email"/>
-                                    <label htmlFor="pass" className="label"><b>Email*</b>
+                                    <label htmlFor="pass" className="label">Email*
                                     </label>
                                 
                                 
                             </div>    
-                                
+                             
                             <div className={styles.input_box}>
                                 <input type="password" id="pass" className={styles.input_field} placeholder="********"/>
-                                    <label htmlFor="pass" className="label" ><b>Password*</b>
-                                    </label>    
+                                    <label htmlFor="pass" className="label" >Password*
+                                    </label>
+                                
+                                   
+                            </div>            
+                            <div className={styles.paragraph}>
+                                <p>Must be atleast 8 characters</p>
+                            </div>             
+                                     
                                      
                                 
-                            </div>
 
                             
-                             <button type='submit'
-                            className={styles.submit}>Sign Up</button> 
-                            <button type="submit"
-                            className={styles.google}><FaGoogle className={styles.icon} />Signup with Google
-                            </button>                                
+                            <div className={styles.buttons}>
+                                <button type='submit'
+                                className={styles.submit}>Get started</button> 
+                                <button type="submit"
+                                className={styles.google}><FaGoogle className={styles.icon} />Signup with Google
+                                </button>                                
                                    
                                    
-                            <div className={styles.register}>
-                                <Link href={"/app/page"}>
-                                Already have an account? <u>Sign in</u>
-                                </Link>
+                                <div className={styles.register}>
+                                    <Link href={"/app"}>
+                                    Already have an account? <u>Sign in</u>
+                                    </Link>
+                                </div>
                             </div>
-                            
                             
                                
                         </div>

@@ -15,47 +15,47 @@ export default function Home() {
             <h6>Welcome back! Please enter your details</h6>
         </div>
         
-          
+      </div>    
         
-        
-      </div>
-      <div className="input">
-        <input
-          type="email"
-          id="email"
-          className="field"
-          placeholder="Enter your email"
-          
-        />
-        <label htmlFor="email" className="label">
-          Email
-        </label>
-      </div>
-      <div className="input">
-        <input type="password" id="pass" className="field" placeholder="********"/>
-        <label htmlFor="pass" className="label">Password
-        </label>
-      </div>
-      <div className="rememberForgot">
-        <div className="remember">
-          <input type="checkbox" id="remember" />
-          <label htmlFor="remember">Remember for 30 days</label>
-        </div>
-        <div className="forgot">
-          <a href="#"><u>Forgot password</u></a>
-        </div>
-      </div>
-      <div className="action">
-        <button className="signin" type = "submit">Sign in</button>
-        <button className="googleSignin" type = "submit"><a href ="./google.accounts.com">Sign in with Google</a></button>
-      </div>
-    
-      <div className="createAcc">
-        <Link href ="/signup" id="linkCreateAccount">
-          Don't have an account? <u>Sign up</u>
-        </Link>
-      </div>
+      <div className="all">  
       
+        <div className="input">
+          <input
+            type="email"
+            id="email"
+            className="field"
+            placeholder="Enter your email"
+            
+          />
+          <label htmlFor="email" className="label">
+            Email
+          </label>
+        </div>
+        <div className="input">
+          <input type="password" id="pass" className="field" placeholder="********"/>
+          <label htmlFor="pass" className="label">Password
+          </label>
+        </div>
+        <div className="rememberForgot">
+          <div className="remember">
+            <input type="checkbox" id="remember" />
+            <label htmlFor="remember">Remember for 30 days</label>
+          </div>
+          <div className="forgot">
+            <a href="#"><u>Forgot password</u></a>
+          </div>
+        </div>
+        <div className="action">
+          <button className="signin" type = "submit">Sign in</button>
+          <button className="googleSignin" type = "submit"><a href ="./google.accounts.com">Sign in with Google</a></button>
+        </div>
+    
+        <div className="createAcc">
+          <Link href ="/signup" id="linkCreateAccount">
+            Don't have an account? <u>Sign up</u>
+          </Link>
+        </div>
+      </div>
     </main>
   );
 }

@@ -1,4 +1,5 @@
 
+import { BiDotsHorizontal } from "react-icons/bi";
 import styles from "./page.module.css"
 import Link from 'next/link'
 
@@ -51,9 +52,9 @@ export default function Home() {
         </div>
     
         <div className="createAcc">
-          <Link href ="/signup" id="linkCreateAccount">
-            Don't have an account? <u>Sign up</u>
-          </Link>
+          
+            <p>Don't have an account? <Link href ="/signup" id="linkCreateAccount">Sign up</Link>
+            </p>
         </div>
       </div>
     </main>

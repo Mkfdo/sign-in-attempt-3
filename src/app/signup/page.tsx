@@ -67,6 +67,7 @@ export default function signup():any {
                                 <input type="password" id="pass" className={styles.input_field} placeholder="********"/>
                                     <label htmlFor="pass" className="label" >Password*
                                     </label>
+                                    
                                 
                                    
                             </div>            
@@ -83,13 +84,16 @@ export default function signup():any {
                                 className={styles.submit}>Get started</button> 
                                 <button type="submit"
                                 className={styles.google}><FaGoogle className={styles.icon} />Signup with Google
-                                </button>                                
+                                </button>
+                                    
+                                    
+                                                               
                                    
                                    
                                 <div className={styles.register}>
-                                    <Link href={"/app"}>
-                                    Already have an account? <u>Sign in</u>
-                                    </Link>
+                                    
+                                    <p>Already have an account?<Link href={"/src/app/page"}>Sign in</Link>
+                                    </p>
                                 </div>
                             </div>
                             

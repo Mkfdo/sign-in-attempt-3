@@ -1,5 +1,5 @@
 
-import { BiDotsHorizontal } from "react-icons/bi";
+
 import styles from "./page.module.css"
 import Link from 'next/link'
 
